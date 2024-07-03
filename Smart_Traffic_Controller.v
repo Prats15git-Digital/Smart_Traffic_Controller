@@ -86,7 +86,7 @@ begin
     endcase
 end
 
-always@(state or clear or a1 or a2 or a3 or b1 or b2 or b3 or c1 or c2 or c3 or d1 or d2 or d3)
+  always@(state or clear or a1 or a2 or a3 or b1 or b2 or b3 or c1 or c2 or c3 or d1 or d2 or d3 or ss1 or ss2 or ss3 or ss4)
 begin
     if(clear)
     next_state = `s0;
