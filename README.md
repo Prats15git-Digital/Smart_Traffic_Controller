@@ -3,7 +3,7 @@ controlling is based on counters where the lights glow for a fixed period of tim
 controls the traffic lights based on the density of traffic at a road. There are provisions for roads given higher priority when any emergency vehicle arrives on that road, detected through sound sensors. For ensuring
 traffic rules are not violated, cameras are also installed at the intersection to capture the vehicle registration number if the traffic signal is skipped. 
 
--**Specifications** 
+**Specifications** 
 
 - The intersection is for a cross-road in which there is a main highway and connecting to it are two country roads
 - The road traffic is controlled based on density of traffic; that is if there is a surge of traffic at road B and the current green signal is given to road A, the road A will be given a red and B a green. The surge
@@ -12,12 +12,12 @@ of traffic is identified by the sensors at the end of each road.
 - The Sound Sensors (SS) detect the presence of an emergency vehicle in its respective road, and accordingly that road is given priority for green, overriding the traffic density at any other roads
 - The Cameras are for capturing traffic rule violation; whenever a red signal is skipped, the RC sensors become high and the camera module is turned on
 
--**State Diagram**
+**State Diagram**
 
 ![Screenshot 2024-07-01 174258](https://github.com/Prats15git-Digital/Smart_Traffic_Controller/assets/173728218/06554d54-c90e-4b39-82ef-d3ac18c5b027)
 
 
--**Considering some Scenarios using Vivado Simulation**
+**Considering some Scenarios using Vivado Simulation**
 
 **Case 1 :**
 
